@@ -1,0 +1,66 @@
+/** @format */
+
+@font-face {
+  font-family: "inter";
+  src: url("../assets/fonts/inter/Inter_18pt-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "archivo";
+  src: url("../assets/fonts/archivo/Archivo-Medium.ttf");
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #06090d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 88px;
+  color: white;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand .logo {
+  width: 56px;
+  height: 34px;
+  margin-right: 12px;
+  background-image: url("../assets/images/logo.svg");
+}
+
+.brand h1 {
+  font-family: inter;
+  font-size: 22px;
+}
+
+.header nav > ol {
+  display: flex;
+  gap: 36px;
+  list-style: none;
+}
+
+.header nav ol li a {
+  text-decoration: none;
+  color: #828da9;
+}
+
+.header #sign-up {
+  border-color: #4a78ed;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 8px 28px;
+  background-color: #06090d;
+  color: white;
+  font-family: archivo;
+  font-weight: 700;
+}
