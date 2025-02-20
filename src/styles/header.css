@@ -18,6 +18,11 @@
 }
 
 .header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 10px;
   background-color: #06090d;
   display: flex;
   justify-content: space-between;
@@ -52,6 +57,13 @@
 .header nav ol li a {
   text-decoration: none;
   color: #828da9;
+  transition: all 0.3s;
+}
+
+.header nav ol li a:hover {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
 }
 
 .header #sign-up {

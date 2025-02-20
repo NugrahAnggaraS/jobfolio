@@ -1,0 +1,63 @@
+/** @format */
+
+@font-face {
+    font-family: 'archivo';
+    src: url('../assets/fonts/archivo/Archivo-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'archivo';
+    src: url('../assets/fonts/archivo/Archivo-Medium.ttf');
+}
+
+.footer{
+    display: flex;
+    padding: 81px 0px;
+    color: #828DA9;
+    background-color: #0A111C;
+    justify-content: space-evenly;
+}
+
+.footer h2{
+    color: white;
+    font-weight: bold;
+}
+
+.footer ul{
+    margin-top: 46px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 28px;
+}
+
+.footer ul li a{
+    font-family: archivo;
+    font-weight: 500;
+    color: #828DA9;
+    text-decoration: none;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand .logo {
+  width: 56px;
+  height: 34px;
+  margin-right: 12px;
+  background-image: url("../assets/images/logo.svg");
+}
+
+.brand h2 {
+  font-family: inter;
+  font-size: 22px;
+}
+
+.brand-footer p{
+    font-family: archivo;
+    margin-top: 46px;
+    font-weight: bold;
+}

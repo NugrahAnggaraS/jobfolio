@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'archivo';
+    src: url('../assets/fonts/archivo/Archivo-Medium.ttf');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.rating{
+    padding: 16px 17px;
+    width: fit-content;
+    border-radius: 12px;
+    background-color: rgba(234, 240, 255, 0.1);
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating p{
+    color: #828DA9;
+    font-size: 18px;
+    font-family: archivo;
+}
+
+.stars{
+    display: flex;
+}
+
+.star{
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-image: url('../assets/images/star.png');
+}

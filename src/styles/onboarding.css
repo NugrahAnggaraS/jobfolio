@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'archivo';
+    src: url('../assets/fonts/archivo/Archivo-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'archivo';
+    src: url('../assets/fonts/archivo/Archivo-Bold.ttf');
+    font-weight: bold;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.home{
+    padding-top: 30px;
+    height: 100vh;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #06090D;
+}
+
+.home .ratings{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+}
+
+.home h1{
+    margin-top: 44px;
+    font-family: archivo;
+    font-weight: bold;
+    font-size: 88px;
+    color: white;
+    text-align: center;
+    line-height: normal;
+}
+
+.home mark{
+    color: #4A78ED;
+    background-color: #06090D;    
+}
+
+.home p{
+    font-family: archivo;
+    font-size: 24px;
+    text-align: center;
+    color: #828DA9;
+}
+
+.search{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.search button{
+    background-color: #4A78ED;
+    border-radius: 8px;
+    font-family: archivo;
+    font-weight: bold;
+    height: 50px;
+    color: white;
+    box-sizing: content-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+}
+
+.search-bar{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.search-bar input{
+    width: 300px;  
+    height: 50px;
+    border: none;
+    padding-left: 40px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: none;
+    border-bottom-right-radius: none;
+    background-color: rgba(234, 240, 255, 0.1);
+    background-image: url('../assets/icons/icon_search.svg');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 10px 15px;
+    color: #EAF0FF;
+    font-family: archivo;
+    font-size: 12px;
+}
+
+.search-bar input:focus{
+    border: none;
+    outline: none;
+}
+
+.search-bar select{
+    height: 50px;
+    padding-left: 8px;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    color: #EAF0FF;
+    border-left-color: #373D4E;
+    background-color: rgba(234, 240, 255, 0.1);
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}

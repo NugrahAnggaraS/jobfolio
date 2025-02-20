@@ -1,0 +1,15 @@
+.categories{
+    margin-top: 36px;
+    display: flex;
+    gap: 20px;
+    font-family: archivo;
+}
+
+.categories p{
+    color: #4A78ED;
+    font-weight: 400;
+    padding: 6px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgba(74, 120, 237, 0.1);
+}

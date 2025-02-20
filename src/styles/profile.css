@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'archivo';
+    src: url('../assets/fonts/archivo/Archivo-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'archivo';
+    src: url('../assets/fonts/archivo/Archivo-Bold.ttf');
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.profile{
+    background-color: #06090D;
+    display: flex;
+    color: #828DA9;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.profile .img-profile{
+    padding: 93px 25px;
+    border-radius: 8px;
+    background-color: rgba(234, 240, 255, 0.1);
+}
+
+.profile .img{
+    width: 545px;
+    height: 345px;
+    background-image: url('../assets/images/profile.svg');
+}
+.profile .content{
+    width: 545px;
+    height: 531px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile .content div:first-child{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.profile .content div:first-child p:first-child{
+    color: #4A78ED;
+    font-family: archivo;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgba(74, 120, 237, 0.1);
+    padding: 6px 16px;
+}
+
+.profile .content div:first-child p:nth-child(2){
+    color: white;
+    font-family: archivo;
+    font-size: 18px;
+}
+
+.profile .content h2{
+    font-family: archivo;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 21px;
+}
+
+.profile .content p{
+    font-family: archivo;
+    font-size: 21px;
+    color: #828DA9;
+}
+
+.profile .content h2 + p{
+    margin-bottom: 16px;
+}
+
+.profile .content h2 + p + p{
+    margin-bottom: 54px;
+}
+
+.profile .content button{
+    width: 153px;
+    height: 53px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4A78ED;
+    color: white;
+    font-family: archivo;
+    font-weight: bold;
+}

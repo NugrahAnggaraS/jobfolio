@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'archivo';
+    src: url('../assets/fonts/archivo/Archivo-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'archivo';
+    src: url('../assets/fonts/archivo/Archivo-Bold.ttf');
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.company{
+    background-color: #06090D;
+    display: flex;
+    color: #828DA9;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.company .img-company{
+    padding-top: 43px;
+    padding-bottom: 73px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 8px;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(234, 240, 255, 0.1);
+}
+
+.company .img-company p{
+    font-family: archivo;
+    margin-bottom: 48px;
+    color: white;
+    font-weight: bold;
+}
+
+.company .img{
+    width: 545px;
+    height: 345px;
+    background-image: url('../assets/images/company.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.company .content{
+    width: 545px;
+    height: 531px;
+    display: flex;
+    flex-direction: column;
+}
+
+.company .content div:first-child{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.company .content div:first-child p:first-child{
+    color: #4A78ED;
+    font-family: archivo;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgba(74, 120, 237, 0.1);
+    padding: 6px 16px;
+}
+
+.company .content div:first-child p:nth-child(2){
+    color: white;
+    font-family: archivo;
+    font-size: 18px;
+}
+
+.company .content h2{
+    font-family: archivo;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 21px;
+}
+
+.company .content p{
+    font-family: archivo;
+    font-size: 21px;
+    color: #828DA9;
+}
+
+.company .content h2 + p{
+    margin-bottom: 16px;
+}
+
+.company .content h2 + p + p{
+    margin-bottom: 54px;
+}
+
+
