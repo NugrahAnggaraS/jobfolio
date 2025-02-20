@@ -12,7 +12,7 @@ Clone Repository :
 git clone https://github.com/NugrahAnggaraS/jobfolio.git
 ```
 
-Clone Repository : 
+Running : 
 ```bash
 npm run dev
 ```
